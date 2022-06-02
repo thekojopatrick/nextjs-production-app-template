@@ -14,8 +14,8 @@
     "lint": "next lint",
     "prettier": "prettier --write .",
     "prepare": "husky install",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "dependencies": {
     "next": "12.1.6",
@@ -44,6 +44,7 @@
     "eslint-plugin-storybook": "^0.5.12",
     "husky": "^8.0.1",
     "prettier": "^2.6.2",
+    "storybook-addon-next": "^1.6.6",
     "typescript": "4.7.2"
   }
 }
