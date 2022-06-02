@@ -28,7 +28,6 @@ const CatCard: React.FC<ICatCard> = ({
             className={styles.card__image}
             width="600"
             height="400"
-            placeholder="blur"
           />
         </div>
         <div className={styles.card__body}>
