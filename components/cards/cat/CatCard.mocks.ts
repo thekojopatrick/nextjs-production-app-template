@@ -6,7 +6,7 @@ const base: ICatCard = {
   body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!',
   author: 'Alex',
   time: '2h ago',
-  img:'/time-cat.jpg'
+  img: '/time-cat.jpg',
 };
 
 export const mockCatCardProps = {
