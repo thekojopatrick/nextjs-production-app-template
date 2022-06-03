@@ -32,7 +32,7 @@ const CatCard: React.FC<ICatCard> = ({
         </div>
         <div className={styles.card__body}>
           <span className={`${styles.tag} ${styles['tag-blue']}`}>{tag}</span>
-          <h4>{title}</h4>
+          <h4 className="font-bold">{title}</h4>
           <p>{body}</p>
         </div>
         <div className={styles.card__footer}>
